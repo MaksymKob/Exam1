@@ -1,0 +1,66 @@
+.header {
+    width: 100%;
+    background: url(../images/header.jpg) no-repeat top center;
+    background-size: cover;
+    height: 820px;
+    @include f-center;
+    color: #fff;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 0.54;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 22px;
+        line-height: 1.18;
+        letter-spacing: 6.82px;
+        margin-bottom: 50px;
+    }
+
+    &__form {
+        max-width: 650px;
+        height: 60px;
+        // position: relative;
+
+        .form-search {
+            width: 500px;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.86;
+            letter-spacing: 2.8px;
+            color: #999999;
+            padding: 17px;
+            
+        }
+
+        .form-submit {
+            height: 60px;
+            // width: 100%;
+            font-size: 14px;
+            line-height: 1.86;
+            letter-spacing: 1.4px;
+            
+        }
+    }
+
+    span {
+        font-size: 14px;
+        margin-top: 120px;
+        line-height: 1.86;
+        letter-spacing: 2.8px;
+    }
+}
+
+
+

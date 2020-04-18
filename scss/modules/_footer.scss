@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    background-color: #232323;
+    // height: 268px;
+    @include f-center;
+    color: #fff;
+    text-align: center;
+
+    &__title {
+        margin-top: 120px;
+        font-size: 24px;
+        line-height: 1.08;
+        letter-spacing: 3.36px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    &__sites {
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 1.6px;
+        margin-bottom: 30px;
+    }
+}
+
+.footer__sites {
+
+    img {
+        @include size(16px);
+        margin: 20px 8px;
+    }
+}

@@ -1,0 +1,26 @@
+.place {
+    width: 100%;
+    background-color: #333333;
+    height: 337px;
+    @include f-center;
+    color: #fff;
+}
+
+.places {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+    &__image {
+        @include size(60px);
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        font-size: 36px;
+        line-height: 0.72;
+        color: #e8e8e8;
+    }
+
+}
